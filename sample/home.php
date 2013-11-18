@@ -42,7 +42,7 @@
     }
     .main-bar {
         height: 45px;
-        background: rgba(255,255,255,0.94);
+        background: rgba(255,255,255,0.9);
         width: 100%;
     }
     .main-body {
@@ -65,7 +65,7 @@
         width: 120px;
     }
     .section-list li {
-        margin-left: 59px;
+        margin-left: 50px;
     }
     .section-list li:first-child {
         margin-left: 0;
@@ -74,11 +74,16 @@
         color: #8d8d8d;
     }
     .container {
-        width: 970px;
+        width: 940px;
     }
 
     .main-setting-button {
         position: absolute;
+        right: 10px;
+        top: 0;
+        font-size: 26px;
+        line-height: 45px;
+        text-align: center;
     }
 </style>
 <div class="main-wrap">
@@ -86,7 +91,7 @@
         <div class="container">
             <div class="text-center" style="line-height: 45px; color: gray; font-size: 24px;">Free Copy</div>
         </div>
-        <div class="main-setting-button"></div>
+        <div class="main-setting-button glyphicon glyphicon-cog"></div>
     </header>
     <section class="main-body">
         <div class="container">
